@@ -16,6 +16,7 @@
 		08B3EE3320443D4000680102 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3220443D4000680102 /* MonTabBar.swift */; };
 		08B3EE3620443D8D00680102 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3520443D8D00680102 /* Constantes.swift */; };
 		08B3EE3820443F5E00680102 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3720443F5E00680102 /* MonNav.swift */; };
+		08B3EE3A204444FE00680102 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE39204444FE00680102 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		08B3EE3220443D4000680102 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		08B3EE3520443D8D00680102 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		08B3EE3720443F5E00680102 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
+		08B3EE39204444FE00680102 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		08B3EE2C20443B2A00680102 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				08B3EE39204444FE00680102 /* MenuCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B3EE3A204444FE00680102 /* MenuCell.swift in Sources */,
 				08B3EE3620443D8D00680102 /* Constantes.swift in Sources */,
 				08B3EE3320443D4000680102 /* MonTabBar.swift in Sources */,
 				08B3EE3820443F5E00680102 /* MonNav.swift in Sources */,
