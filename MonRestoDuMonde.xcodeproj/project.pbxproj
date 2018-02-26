@@ -25,6 +25,7 @@
 		08B3EE462044523B00680102 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE452044523B00680102 /* PlatCell.swift */; };
 		08B3EE48204453C800680102 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE47204453C800680102 /* ALaCarte.swift */; };
 		08B3EE4A20445B7700680102 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE4920445B7700680102 /* DetailController.swift */; };
+		08B3EE4C20445DB800680102 /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE4B20445DB800680102 /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		08B3EE452044523B00680102 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		08B3EE47204453C800680102 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		08B3EE4920445B7700680102 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		08B3EE4B20445DB800680102 /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				08B3EE39204444FE00680102 /* MenuCell.swift */,
 				08B3EE4320444F4200680102 /* Degrade.swift */,
 				08B3EE452044523B00680102 /* PlatCell.swift */,
+				08B3EE4B20445DB800680102 /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				08B3EE48204453C800680102 /* ALaCarte.swift in Sources */,
 				08B3EE40204448F700680102 /* Menu.swift in Sources */,
 				08B3EE2F20443B7F00680102 /* MenuController.swift in Sources */,
+				08B3EE4C20445DB800680102 /* PlatVue.swift in Sources */,
 				08B3EE42204449A500680102 /* LesPlats.swift in Sources */,
 				08B3EE1A2044399F00680102 /* AppDelegate.swift in Sources */,
 				08B3EE3C2044477600680102 /* Plat.swift in Sources */,
