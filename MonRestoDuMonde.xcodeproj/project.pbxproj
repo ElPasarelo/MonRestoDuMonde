@@ -15,6 +15,7 @@
 		08B3EE3120443BBD00680102 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3020443BBD00680102 /* ALaCarteController.swift */; };
 		08B3EE3320443D4000680102 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3220443D4000680102 /* MonTabBar.swift */; };
 		08B3EE3620443D8D00680102 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3520443D8D00680102 /* Constantes.swift */; };
+		08B3EE3820443F5E00680102 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3720443F5E00680102 /* MonNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		08B3EE3020443BBD00680102 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		08B3EE3220443D4000680102 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		08B3EE3520443D8D00680102 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		08B3EE3720443F5E00680102 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				08B3EE2E20443B7F00680102 /* MenuController.swift */,
 				08B3EE3020443BBD00680102 /* ALaCarteController.swift */,
 				08B3EE3220443D4000680102 /* MonTabBar.swift */,
+				08B3EE3720443F5E00680102 /* MonNav.swift */,
 			);
 			path = Controlleur;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				08B3EE3620443D8D00680102 /* Constantes.swift in Sources */,
 				08B3EE3320443D4000680102 /* MonTabBar.swift in Sources */,
+				08B3EE3820443F5E00680102 /* MonNav.swift in Sources */,
 				08B3EE2F20443B7F00680102 /* MenuController.swift in Sources */,
 				08B3EE1A2044399F00680102 /* AppDelegate.swift in Sources */,
 				08B3EE3120443BBD00680102 /* ALaCarteController.swift in Sources */,
