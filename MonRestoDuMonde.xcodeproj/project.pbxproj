@@ -19,6 +19,8 @@
 		08B3EE3A204444FE00680102 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE39204444FE00680102 /* MenuCell.swift */; };
 		08B3EE3C2044477600680102 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3B2044477600680102 /* Plat.swift */; };
 		08B3EE3E204447B300680102 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3D204447B300680102 /* Enums.swift */; };
+		08B3EE40204448F700680102 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3F204448F700680102 /* Menu.swift */; };
+		08B3EE42204449A500680102 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE41204449A500680102 /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		08B3EE39204444FE00680102 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		08B3EE3B2044477600680102 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		08B3EE3D204447B300680102 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		08B3EE3F204448F700680102 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		08B3EE41204449A500680102 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				08B3EE3B2044477600680102 /* Plat.swift */,
 				08B3EE3D204447B300680102 /* Enums.swift */,
+				08B3EE3F204448F700680102 /* Menu.swift */,
+				08B3EE41204449A500680102 /* LesPlats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -193,7 +199,9 @@
 				08B3EE3620443D8D00680102 /* Constantes.swift in Sources */,
 				08B3EE3320443D4000680102 /* MonTabBar.swift in Sources */,
 				08B3EE3820443F5E00680102 /* MonNav.swift in Sources */,
+				08B3EE40204448F700680102 /* Menu.swift in Sources */,
 				08B3EE2F20443B7F00680102 /* MenuController.swift in Sources */,
+				08B3EE42204449A500680102 /* LesPlats.swift in Sources */,
 				08B3EE1A2044399F00680102 /* AppDelegate.swift in Sources */,
 				08B3EE3C2044477600680102 /* Plat.swift in Sources */,
 				08B3EE3E204447B300680102 /* Enums.swift in Sources */,
