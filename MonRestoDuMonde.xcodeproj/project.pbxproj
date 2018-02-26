@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		08B3EE1A2044399F00680102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE192044399F00680102 /* AppDelegate.swift */; };
-		08B3EE1C2044399F00680102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE1B2044399F00680102 /* ViewController.swift */; };
 		08B3EE1F2044399F00680102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B3EE1D2044399F00680102 /* Main.storyboard */; };
 		08B3EE212044399F00680102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B3EE202044399F00680102 /* Assets.xcassets */; };
 		08B3EE242044399F00680102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B3EE222044399F00680102 /* LaunchScreen.storyboard */; };
+		08B3EE2F20443B7F00680102 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE2E20443B7F00680102 /* MenuController.swift */; };
+		08B3EE3120443BBD00680102 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3EE3020443BBD00680102 /* ALaCarteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08B3EE162044399F00680102 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B3EE192044399F00680102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08B3EE1B2044399F00680102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08B3EE1E2044399F00680102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08B3EE202044399F00680102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B3EE232044399F00680102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08B3EE252044399F00680102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B3EE2E20443B7F00680102 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		08B3EE3020443BBD00680102 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		08B3EE182044399F00680102 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				08B3EE2B20443B1E00680102 /* Modele */,
+				08B3EE2C20443B2A00680102 /* Vue */,
+				08B3EE2D20443B2F00680102 /* Controlleur */,
 				08B3EE192044399F00680102 /* AppDelegate.swift */,
-				08B3EE1B2044399F00680102 /* ViewController.swift */,
 				08B3EE1D2044399F00680102 /* Main.storyboard */,
 				08B3EE202044399F00680102 /* Assets.xcassets */,
 				08B3EE222044399F00680102 /* LaunchScreen.storyboard */,
 				08B3EE252044399F00680102 /* Info.plist */,
 			);
 			path = MonRestoDuMonde;
+			sourceTree = "<group>";
+		};
+		08B3EE2B20443B1E00680102 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		08B3EE2C20443B2A00680102 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		08B3EE2D20443B2F00680102 /* Controlleur */ = {
+			isa = PBXGroup;
+			children = (
+				08B3EE2E20443B7F00680102 /* MenuController.swift */,
+				08B3EE3020443BBD00680102 /* ALaCarteController.swift */,
+			);
+			path = Controlleur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B3EE1C2044399F00680102 /* ViewController.swift in Sources */,
+				08B3EE2F20443B7F00680102 /* MenuController.swift in Sources */,
 				08B3EE1A2044399F00680102 /* AppDelegate.swift in Sources */,
+				08B3EE3120443BBD00680102 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
